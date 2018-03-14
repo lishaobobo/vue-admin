@@ -295,14 +295,14 @@
         },
         mounted() {
             this.getUsers();
-            //测试GET
+           /* //测试GET
             getIndex().then((res) => {
                 // console.log(res);
             });
             //测试post
             getArea({"id":"12","name":"1333","assetCount":"1","person":"1","importance":"核心"}).then(res => {
                 console.log(res);
-            });
+            });*/
         }
     }
 
