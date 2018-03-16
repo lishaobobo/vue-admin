@@ -162,7 +162,7 @@
         .header {
             height: 60px;
             line-height: 60px;
-            background: #000;
+            background: #2A4681;
             color: #fff;
             .userinfo {
                 text-align: right;
@@ -227,6 +227,19 @@
                 // bottom: 0px;
                 .el-menu {
                     height: 100%;
+                    background: #e4393c;
+                    border: none;
+                    .el-menu-item {
+                        background: #0000ff;
+                        color: #000000;
+                    }
+                    .el-menu-item.is-active {
+                        background: yellow;
+                    }
+                    .el-menu-item:hover {
+                        background: #000;
+                        color: #ffffff;
+                    }
                 }
                 .collapsed {
                     width: 60px;
@@ -259,7 +272,7 @@
                 }
             }
             .content-container {
-                // background: #f1f2f7;
+                background: #131E36;
                 flex: 1;
                 // position: absolute;
                 // right: 0px;
@@ -276,6 +289,7 @@
                         color: #475669;
                     }
                     .breadcrumb-inner {
+                        color: #ffffff;
                         float: right;
                     }
                 }
