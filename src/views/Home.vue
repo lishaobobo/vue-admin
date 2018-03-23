@@ -153,7 +153,7 @@
 
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
     .container {
         position: absolute;
         top: 0px;
@@ -229,6 +229,9 @@
                     height: 100%;
                     background: #e4393c;
                     border: none;
+                    .el-submenu__title:hover{
+                        background: blue;
+                    }
                     .el-menu-item {
                         background: #0000ff;
                         color: #000000;
