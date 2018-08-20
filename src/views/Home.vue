@@ -222,6 +222,7 @@
             aside {
                 flex: 0 0 230px;
                 width: 230px;
+                overflow-y: auto;
                 // position: absolute;
                 // top: 0px;
                 // bottom: 0px;
